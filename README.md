@@ -6,5 +6,5 @@ cd src
 
 npm i 
 
-node index.js
+yarn dev
 ```
