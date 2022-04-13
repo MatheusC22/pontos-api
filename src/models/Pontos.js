@@ -3,19 +3,19 @@ const mongoose = require('../database');
 const PontoSchema = new mongoose.Schema({
     nome :{
         type : String,
-        require : true,
+        required : true,
     },
     descricao : {
         type : String,
-        require : true
+        required : true
     },
     estado : {
         type : String,
-        require : true
+        required : true
     },
     cidade : {
         type : String,
-        require : true
+        required : true
     },
     responsavel : {
         type : String,
@@ -23,12 +23,12 @@ const PontoSchema = new mongoose.Schema({
     },
     email_resp : {
         type : String,
-        require : true,
+        required : true,
         lowercase : true
     },
     fone_resp : {
         type : String,
-        require : true
+        required : true
     }
 });
 
