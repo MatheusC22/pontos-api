@@ -4,6 +4,7 @@ const PontoSchema = new mongoose.Schema({
     nome :{
         type : String,
         required : true,
+        unique: true
     },
     descricao : {
         type : String,
